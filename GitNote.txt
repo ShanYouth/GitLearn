@@ -1,2 +1,3 @@
 用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
 git reflog 查看历史命令记录；
+git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
